@@ -8,7 +8,7 @@ Wayback-Diff needs Python 3.10 or newer.
 pip install wayback-diff
 
 # With visual comparison support
-pip install wayback-diff[visual]
+pip install "wayback-diff[visual]"
 ```
 
 ## From source
