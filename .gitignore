@@ -50,6 +50,7 @@ reports/
 !README.md
 !SECURITY.md
 !CHANGELOG.md
+!AGENTS.md
 *.diff
 *.txt
 !requirements.txt
