@@ -20,7 +20,7 @@ Comparing web pages gets hard once Wayback Machine injections, whitespace noise 
 
 - Strips Wayback Machine banners, analytics and playback scripts, and URL rewrites, so you compare the real content.
 - Tags every change High, Medium or Low.
-- Screenshots in Chrome, Firefox, Edge and Opera, with side-by-side and pixel-diff images (`--visual`).
+- Screenshots in Chrome, Firefox, Edge and Opera, driven by Selenium WebDriver, with side-by-side and pixel-diff images (`--visual`).
 - Site-wide crawl and compare with `--traverse --max-depth N`.
 - Text, JSON and unified diff output, plus Markdown reports (`--markdown`).
 - CI exit codes: `0` no changes, `1` low or medium, `2` high.
