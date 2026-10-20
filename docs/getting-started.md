@@ -31,7 +31,7 @@ pip install -e ".[visual]"
 ## Docker
 
 ```bash
-docker run --rm drumsergio/wayback-diff:1.1.0 https://example.com/a https://example.com/b
+docker run --rm drumsergio/wayback-diff:1.1.1 https://example.com/a https://example.com/b
 ```
 
 The image is built for `linux/amd64`; on Apple Silicon add `--platform linux/amd64`. To build the image from a checkout instead: `docker build -t wayback-diff .`, then `docker run --rm wayback-diff <url1> <url2>`.

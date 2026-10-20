@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="wayback-diff",
-    version="1.1.0",
+    version="1.1.1",
     author="geiserx",
     author_email="sergio@geiser.cloud",
     description="Compare web pages, with Wayback Machine artifact cleaning and significance scoring",

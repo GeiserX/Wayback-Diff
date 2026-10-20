@@ -870,4 +870,4 @@ class TestModuleEntryPoint:
     def test_package_version(self):
         """Test package version is set."""
         from wayback_diff import __version__
-        assert __version__ == "1.1.0"
+        assert __version__ == "1.1.1"
