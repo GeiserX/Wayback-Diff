@@ -2,8 +2,10 @@ FROM python:3.14-slim
 
 WORKDIR /app
 
-# Install system dependencies
+# Install system dependencies. ca-certificates is listed to upgrade it: the base
+# image ships 20250419, which still trusts the compromised eMudhra intermediates.
 RUN apt-get update && apt-get install -y \
+    ca-certificates \
     wget \
     gnupg \
     unzip \
